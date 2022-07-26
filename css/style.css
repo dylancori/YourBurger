@@ -1,0 +1,245 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+*,
+
+*::after,
+
+*::before {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: content-box;
+
+}
+body{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1510205431450-54dfb096d46e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGZpcmUlMjBrdGljaGVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    font-family: 'Fascinate', cursive;
+    
+    min-height: 100vh;
+    overflow: scroll; 
+}
+#bb{
+    display: none;
+}
+ 
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+    
+}
+
+header label:hover{
+    background: rgba(0,0,0,0.3);
+    
+    
+}
+
+.menus{
+    list-style: none;
+    font-size: x-large;
+    text-transform: uppercase;
+    background-color: chocolate;
+    
+    
+    
+}
+
+h1{
+    font-size: 30px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+    justify-content:space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    transition: all 1s; 
+
+}
+a:hover{
+    border-color: black;
+}
+.barra{
+    width: 275px;
+    height: 60px;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+h2{
+    color: brown;
+    font-size: 60px;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+.burger1{
+    width: 250px;
+    height: 300px;
+   border-style:inset ;
+   border-color: coral;
+}
+
+.bb1{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.b1{
+  
+    
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  
+}
+
+.especiales{
+    
+    top: 10px;
+    left: 10px;
+    background-color: coral;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.pizz-a{
+
+    width: 250px;
+    height: 300px;
+    border-style:inset ;
+    border-color: coral;
+}
+
+.beb{
+    width: 300px;
+    height: 300px;
+    border-style:inset ;
+    border-color: coral;
+}
+
+.trag{
+    width: 300px;
+    height: 300px;
+    border-style:inset ;
+    border-color: coral;
+    
+}
+
+footer{
+    font-size: 20px;
+    background-color: chocolate;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    
+}
+
+
+@media (max-width:800px) and (min-width:360px) {
+    header label{
+        display:block;  
+    }
+    ul{
+        position: absolute;
+        background: chocolate;
+        width: 60%;
+        margin-left: -70%;
+        transition: all 1s;
+        z-index: 1;
+    }
+    ul{
+        flex-direction: column;
+        
+    }
+    #bb:checked ~ ul{
+        margin: 0;
+    }
+    
+    .bb1{
+        display: grid;
+        grid-template-columns: 3fr;
+    }
+}
+
+/* hasta aca lo que es index */
+
+/* quienes somos*/
+.abcd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+.p-qs{
+    color: brown;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+@media (max-width:1050px) and (min-width:360px){
+    .abcd{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+}
+    /* hasta aca quienes somos*/
+
+
+    /* contacto*/
+    .cont{
+        color: brown;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    text-transform: uppercase;    }
+   /*tu cv*/
+   .p-cv{
+    color: brown;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    
+   }
+   /*redes*/
+   .p-r{
+    color: brown;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+   }
+   

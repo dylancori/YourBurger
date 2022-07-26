@@ -1,0 +1,162 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+*,
+
+*::after,
+
+*::before {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: content-box;
+
+}
+@import"./fijos/header.scss";
+@import"./fijos/footer.scss";
+body{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1510205431450-54dfb096d46e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGZpcmUlMjBrdGljaGVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    font-family: 'Fascinate', cursive;
+    min-height: 100vh;
+    overflow: scroll;
+}
+#bb{
+    display: none;
+}
+ 
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    
+    justify-content:space-around;
+    align-items: center;
+    &_h1{
+        font-size: 30px;
+    }
+
+        &_a{
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid chocolate;
+        border-radius: 10px;
+        transition: all 1s; 
+
+
+            &_:hover{
+            border-color: black;
+             }
+         }
+    }
+.barra{
+    width: 275px;
+    height: 60px;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+h2{
+    color: brown;
+    font-size: 60px;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+.burger1{
+    width: 250px;
+    height: 300px;
+   border-style:inset ;
+   border-color: coral;
+}
+
+.bb1{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.b1{
+  
+    
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  
+}
+
+.especiales{
+    
+    top: 10px;
+    left: 10px;
+    background-color: coral;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.pizz-a{
+
+    width: 250px;
+    height: 300px;
+    border-style:inset ;
+    border-color: coral;
+}
+
+.beb{
+    width: 300px;
+    height: 300px;
+    border-style:inset ;
+    border-color: coral;
+}
+
+.trag{
+    width: 300px;
+    height: 300px;
+    border-style:inset ;
+    border-color: coral;
+    
+}
+
+
+
+
+@media (max-width:800px) and (min-width:360px) {
+    header label{
+        display:block;  
+    }
+    ul{
+        position: absolute;
+        background: chocolate;
+        width: 60%;
+        margin-left: -70%;
+        transition: all 1s;
+        z-index: 1;
+    }
+    ul{
+        flex-direction: column;
+        
+    }
+    #bb:checked ~ ul{
+        margin: 0;
+    }
+    
+    .bb1{
+        display: grid;
+        grid-template-columns: 3fr;
+    }
+}
