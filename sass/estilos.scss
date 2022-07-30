@@ -83,24 +83,6 @@ h2{
 
 
 @media (max-width:800px) and (min-width:360px) {
-    header label{
-        display:block;  
-    }
-    ul{
-        position: absolute;
-        background:$terciario;
-        width: 60%;
-        margin-left: -70%;
-        transition: all 1s;
-        z-index: 1;
-    }
-    ul{
-        flex-direction: column;
-        
-    }
-    #bb:checked ~ ul{
-        margin: 0;
-    }
     
     .bb1{
         display: grid;

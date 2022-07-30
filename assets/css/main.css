@@ -58,6 +58,23 @@ ul {
     ul :hover, ul a :hover {
       border-color: black; }
 
+@media (max-width: 800px) and (min-width: 360px) {
+  header label {
+    display: block; }
+  ul {
+    position: absolute;
+    background: chocolate;
+    width: 60%;
+    margin-left: -70%;
+    transition: all 1s;
+    z-index: 1;
+    flex-direction: column; }
+  #bb:checked ~ ul {
+    margin: 0; }
+  .bb1 {
+    display: grid;
+    grid-template-columns: 3fr; } }
+
 footer {
   font-size: 20px;
   background-color: chocolate;
@@ -123,19 +140,6 @@ h2 {
   border-color: coral; }
 
 @media (max-width: 800px) and (min-width: 360px) {
-  header label {
-    display: block; }
-  ul {
-    position: absolute;
-    background: chocolate;
-    width: 60%;
-    margin-left: -70%;
-    transition: all 1s;
-    z-index: 1; }
-  ul {
-    flex-direction: column; }
-  #bb:checked ~ ul {
-    margin: 0; }
   .bb1 {
     display: grid;
     grid-template-columns: 3fr; } }
