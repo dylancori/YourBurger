@@ -1,4 +1,5 @@
 /*colores*/
+/*fuentes*/
 * {
   margin: 0%;
   padding: 0%; }
@@ -52,7 +53,8 @@ ul {
     cursor: pointer;
     border: 2px solid chocolate;
     border-radius: 10px;
-    transition: all 1s; }
+    transition: all 1s;
+    color: black; }
     ul :hover, ul a :hover {
       border-color: black; }
 
@@ -66,7 +68,7 @@ footer {
 .barra {
   width: 275px;
   height: 60px;
-  font-family: 'Fascinate', cursive;
+  font-family: "Fascinate", cursive;
   text-transform: uppercase;
   font-size: 20px; }
 
@@ -100,7 +102,7 @@ h2 {
   background-color: coral;
   text-transform: uppercase;
   border-radius: 4px;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: "Times New Roman", Times, serif; }
 
 .pizz-a {
   width: 250px;

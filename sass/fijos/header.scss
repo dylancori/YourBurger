@@ -48,6 +48,7 @@ ul{
         border: 2px solid $terciario;
         border-radius: 10px;
         transition: all 1s; 
+        color:$bordes;
 
         :hover{
             border-color: $bordes;

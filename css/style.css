@@ -39,6 +39,7 @@ header label{
     border: 1px solid rgba(0, 0, 0, 0.082);
     border-radius: 10px;
     
+    
 }
 
 header label:hover{
@@ -51,7 +52,8 @@ header label:hover{
     list-style: none;
     font-size: x-large;
     text-transform: uppercase;
-    background-color: chocolate;
+    background-color: chocolate ;
+    
      
 }
 
@@ -73,6 +75,7 @@ a{
     border: 2px solid chocolate;
     border-radius: 10px;
     transition: all 1s; 
+    color:black;
 
 }
 a:hover{
