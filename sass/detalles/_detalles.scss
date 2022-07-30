@@ -1,0 +1,28 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+*,
+
+*::after,
+
+*::before {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: content-box;
+
+}
+body{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1510205431450-54dfb096d46e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGZpcmUlMjBrdGljaGVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    font-family: 'Fascinate', cursive;
+    min-height: 100vh;
+    overflow: scroll;
+}

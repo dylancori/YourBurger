@@ -1,3 +1,8 @@
+
+#bb{
+    display: none;
+}
+ 
 header label{
     display: none;
     width: 30px;
@@ -6,21 +11,46 @@ header label{
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.082);
     border-radius: 10px;
-    
 
-
-    &_label:hover{
-    background: rgba(0,0,0,0.3);
-    
-    
+    &:hover{
+        background: rgba(0,0,0,0.3);
     }
+    
 }
-    .menus{
+
+
+
+.menus{
     list-style: none;
     font-size: x-large;
     text-transform: uppercase;
-    background-color: chocolate;
+    background-color:$terciario;
+     
+    &_titulo{
+        font-size:30px;
+
+
+    }
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
     
-    
-    
+    justify-content:space-around;
+    align-items: center;
+
+    &,a{
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid $terciario;
+        border-radius: 10px;
+        transition: all 1s; 
+
+        :hover{
+            border-color: $bordes;
+        }
+    }
 }

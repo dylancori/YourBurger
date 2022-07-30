@@ -1,0 +1,19 @@
+.abcd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+  align-items: center;
+  justify-items: center; }
+
+.p-qs {
+  color: brown;
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center; }
+
+@media (max-width: 1050px) and (min-width: 360px) {
+  .abcd {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr; } }

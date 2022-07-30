@@ -1,3 +1,4 @@
+/*colores*/
 * {
   margin: 0%;
   padding: 0%; }
@@ -8,31 +9,6 @@
   margin: 0;
   padding: 0;
   box-sizing: content-box; }
-
-header label {
-  display: none;
-  width: 30px;
-  height: 30px;
-  padding: 10px;
-  cursor: pointer;
-  border: 1px solid rgba(0, 0, 0, 0.082);
-  border-radius: 10px; }
-
-header label:hover {
-  background: rgba(0, 0, 0, 0.3); }
-
-.menus {
-  list-style: none;
-  font-size: x-large;
-  text-transform: uppercase;
-  background-color: chocolate; }
-
-footer {
-  font-size: 20px;
-  background-color: chocolate;
-  position: fixed;
-  bottom: 0%;
-  width: 100%; }
 
 body {
   text-align: center;
@@ -47,24 +23,45 @@ body {
 #bb {
   display: none; }
 
-h1 {
-  font-size: 30px; }
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  border-radius: 10px; }
+  header label:hover {
+    background: rgba(0, 0, 0, 0.3); }
+
+.menus {
+  list-style: none;
+  font-size: x-large;
+  text-transform: uppercase;
+  background-color: chocolate; }
+  .menus_titulo {
+    font-size: 30px; }
 
 ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center; }
+  ul, ul a {
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    transition: all 1s; }
+    ul :hover, ul a :hover {
+      border-color: black; }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
-  border: 2px solid chocolate;
-  border-radius: 10px;
-  transition: all 1s; }
-
-a:hover {
-  border-color: black; }
+footer {
+  font-size: 20px;
+  background-color: chocolate;
+  position: fixed;
+  bottom: 0%;
+  width: 100%; }
 
 .barra {
   width: 275px;

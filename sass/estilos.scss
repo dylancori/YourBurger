@@ -1,63 +1,10 @@
-
-*{
-    margin: 0%;
-    padding: 0%;
-}
-*,
-
-*::after,
-
-*::before {
-
-    margin: 0;
-
-    padding: 0;
-
-    box-sizing: content-box;
-
-}
+@import"./detalles/variables";
+@import"./detalles/detalles";
 @import"./fijos/header.scss";
 @import"./fijos/footer.scss";
-body{
-    text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1510205431450-54dfb096d46e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGZpcmUlMjBrdGljaGVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover ;
-    background-attachment: fixed;
-    font-family: 'Fascinate', cursive;
-    min-height: 100vh;
-    overflow: scroll;
-}
-#bb{
-    display: none;
-}
- 
 
 
 
-ul{
-    list-style: none;
-    display: flex;
-    
-    justify-content:space-around;
-    align-items: center;
-    &_h1{
-        font-size: 30px;
-    }
-
-        &_a{
-        text-decoration: none;
-        cursor: pointer;
-        border: 2px solid chocolate;
-        border-radius: 10px;
-        transition: all 1s; 
-
-
-            &_:hover{
-            border-color: black;
-             }
-         }
-    }
 .barra{
     width: 275px;
     height: 60px;
@@ -68,7 +15,7 @@ ul{
 }
 
 h2{
-    color: brown;
+    color: $primario;
     font-size: 60px;
     font-family: fantasy;
     text-transform: uppercase;
@@ -77,7 +24,7 @@ h2{
     width: 250px;
     height: 300px;
    border-style:inset ;
-   border-color: coral;
+   border-color:$secundario;
 }
 
 .bb1{
@@ -102,7 +49,7 @@ h2{
     
     top: 10px;
     left: 10px;
-    background-color: coral;
+    background-color:$secundario;
     text-transform: uppercase;
     border-radius: 4px;
     font-family: 'Times New Roman', Times, serif;
@@ -114,21 +61,21 @@ h2{
     width: 250px;
     height: 300px;
     border-style:inset ;
-    border-color: coral;
+    border-color: $secundario;
 }
 
 .beb{
     width: 300px;
     height: 300px;
     border-style:inset ;
-    border-color: coral;
+    border-color:$secundario;
 }
 
 .trag{
     width: 300px;
     height: 300px;
     border-style:inset ;
-    border-color: coral;
+    border-color: $secundario;
     
 }
 
@@ -141,7 +88,7 @@ h2{
     }
     ul{
         position: absolute;
-        background: chocolate;
+        background:$terciario;
         width: 60%;
         margin-left: -70%;
         transition: all 1s;
