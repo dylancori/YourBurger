@@ -1,3 +1,7 @@
+@import"../detalles/variables";
+@import"../detalles/detalles";
+@import"../fijos/header.scss";
+@import"../fijos/footer.scss";
 .abcd{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -8,9 +12,9 @@
 }
 
 .p-qs{
-    color: brown;
+    color: $primario;
     font-size: 30px;
-    font-family: fantasy;
+    font-family: $f2;
     text-align: center;
 }
 

@@ -1,7 +1,6 @@
 {
-  "name": "1---copia",
+  "name": "1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +9,12 @@
     "quienes": "node-sass --include-path scss sass/contenido/quienes_somos.scss ./assets/css/quienes.css",
     "redes": "node-sass --include-path scss sass/contenido/redes.scss ./assets/css/redes.css",
     "cv": "node-sass --include-path scss sass/contenido/tu_cv.scss ./assets/css/cv.css",
-    "watch-sass": "nodemon -e scss -x \"npm run index\" \"npm run contacto\" \"npm run quienes\" \"npm run redes\" \"npm run cv\""
+    "index-sass": "nodemon -e scss -x \"npm run index\"  ",
+    "contacto-sass":"nodemon -e scss -x \"npm run contacto\"",
+    "quienes-sass":"nodemon -e scss -x \"npm run quienes\"",
+    "redes-sass":"nodemon -e scss -x \"npm run redes\"",
+    "cv-sass":"nodemon -e scss -x \"npm run cv\""
+
   },
   "repository": {
     "type": "git",
@@ -26,5 +30,9 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
+  },
+  "description": "",
+  "dependencies": {
+    "D": "^1.0.0"
   }
 }

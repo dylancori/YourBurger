@@ -1,0 +1,16 @@
+@import"../detalles/variables";
+@import"../detalles/detalles";
+@import"../fijos/header.scss";
+@import"../fijos/footer.scss";
+.p-cv{
+    color: $primario;
+    font-size: 30px;
+    font-family: $f2;
+    text-align: center;
+    
+   }
+   .cv{
+    color:$bordes;
+    font-family: $f2;
+    text-transform: uppercase;
+   }

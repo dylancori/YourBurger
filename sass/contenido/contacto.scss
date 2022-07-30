@@ -1,0 +1,10 @@
+@import"../detalles/variables";
+@import"../detalles/detalles";
+@import"../fijos/header.scss";
+@import"../fijos/footer.scss";
+.cont{
+    color: $primario;
+font-size: 50px;
+font-family: $f2;
+text-align: center;
+text-transform: uppercase;    }
