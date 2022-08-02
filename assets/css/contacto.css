@@ -83,9 +83,12 @@ footer {
     text-transform: uppercase;
     text-decoration: none; }
 
-.cont {
+span {
   color: brown;
   font-size: 50px;
   font-family: fantasy;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgba(210, 105, 30, 0.74); }

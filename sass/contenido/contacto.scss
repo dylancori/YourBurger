@@ -2,9 +2,13 @@
 @import"../detalles/detalles";
 @import"../fijos/header.scss";
 @import"../fijos/footer.scss";
-.cont{
-    color: $primario;
+span{
+color: $primario;
 font-size: 50px;
 font-family: $f2;
 text-align: center;
-text-transform: uppercase;    }
+text-transform: uppercase;  
+display: inline-block;
+border-radius: 10px;  
+background-color: rgba(210, 105, 30, 0.74);
+}

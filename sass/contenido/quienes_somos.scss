@@ -9,13 +9,17 @@
     grid-gap: 50px;
     align-items: center;
     justify-items: center;
+    
 }
 
 .p-qs{
     color: $primario;
-    font-size: 30px;
+    font-size: 25px;
     font-family: $f2;
     text-align: center;
+    display: inline-block;
+border-radius: 10px;  
+background-color: rgba(210, 105, 30, 0.74);
 }
 
 

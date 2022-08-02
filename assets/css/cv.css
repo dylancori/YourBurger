@@ -87,7 +87,10 @@ footer {
   color: brown;
   font-size: 30px;
   font-family: fantasy;
-  text-align: center; }
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgba(210, 105, 30, 0.74); }
 
 .cv {
   color: black;

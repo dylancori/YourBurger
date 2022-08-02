@@ -87,4 +87,8 @@ footer {
   color: brown;
   font-size: 50px;
   font-family: fantasy;
-  text-align: center; }
+  text-align: center;
+  background-color: rgba(210, 105, 30, 0.74);
+  display: inline;
+  border-radius: 10px;
+  text-transform: uppercase; }

@@ -94,7 +94,10 @@ h2 {
   color: brown;
   font-size: 60px;
   font-family: fantasy;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background-color: rgba(210, 105, 30, 0.74);
+  display: inline;
+  border-radius: 10px; }
 
 .burger1 {
   width: 250px;
