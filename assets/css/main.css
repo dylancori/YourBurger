@@ -29,7 +29,6 @@ header label {
   width: 30px;
   height: 30px;
   padding: 10px;
-  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.082);
   border-radius: 10px; }
   header label:hover {
@@ -50,7 +49,6 @@ ul {
   align-items: center; }
   ul, ul a {
     text-decoration: none;
-    cursor: pointer;
     border: 2px solid chocolate;
     border-radius: 10px;
     transition: all 1s;
@@ -84,11 +82,11 @@ footer {
     text-decoration: none; }
 
 .barra {
-  width: 275px;
+  width: 320px;
   height: 60px;
   font-family: "Fascinate", cursive;
   text-transform: uppercase;
-  font-size: 20px; }
+  font-size: 25px; }
 
 h2 {
   color: brown;
@@ -99,7 +97,7 @@ h2 {
   display: inline;
   border-radius: 10px; }
 
-.burger1 {
+.burger1, .pizz-a {
   width: 250px;
   height: 300px;
   border-style: inset;
@@ -126,10 +124,8 @@ h2 {
   font-family: "Times New Roman", Times, serif; }
 
 .pizz-a {
-  width: 250px;
-  height: 300px;
-  border-style: inset;
-  border-color: coral; }
+  border-color: black;
+  padding: 15px; }
 
 .beb {
   width: 300px;

@@ -1,4 +1,5 @@
 @import"./detalles/variables";
+@import"./detalles/mixins.scss";
 @import"./detalles/detalles";
 @import"./fijos/header.scss";
 @import"./fijos/footer.scss";
@@ -6,17 +7,17 @@
 
 
 .barra{
-    width: 275px;
+    width: 320px;
     height: 60px;
     font-family:$f1 ;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: map-get($fuentes, text-small );
     
 }
 
 h2{
     color: $primario;
-    font-size: 60px;
+    font-size: map-get($fuentes,text-large );
     font-family: $f2;
     text-transform: uppercase;
     background-color: rgba(210, 105, 30, 0.74);
@@ -26,10 +27,7 @@ h2{
 }
 
 .burger1{
-    width: 250px;
-    height: 300px;
-   border-style:inset ;
-   border-color:$secundario;
+@include medida(250px, 300px, inset, $secundario)
 }
 
 .bb1{
@@ -59,28 +57,22 @@ h2{
     border-radius: 4px;
     font-family:$f3;
     
+    
 }
 
 .pizz-a{
-
-    width: 250px;
-    height: 300px;
-    border-style:inset ;
-    border-color: $secundario;
+@extend.burger1;
+    border-color: black;
+    padding: 15px;
+    
 }
 
 .beb{
-    width: 300px;
-    height: 300px;
-    border-style:inset ;
-    border-color:$secundario;
+    @include medida(300px, 300px, inset, $secundario)
 }
 
 .trag{
-    width: 300px;
-    height: 300px;
-    border-style:inset ;
-    border-color: $secundario;
+    @include medida(300px, 300px, inset, $secundario)
     
 }
 
