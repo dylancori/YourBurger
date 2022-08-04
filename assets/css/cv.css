@@ -82,13 +82,13 @@ footer {
     text-decoration: none; }
 
 .p-cv {
-  color: brown;
+  color: black;
   font-size: 30px;
   font-family: fantasy;
   text-align: center;
   display: inline-block;
   border-radius: 10px;
-  background-color: rgba(210, 105, 30, 0.74); }
+  background-color: rgba(210, 105, 30, 0.815); }
 
 span {
   color: black;
@@ -104,10 +104,10 @@ form {
 
 @media (max-width: 800px) and (min-width: 360px) {
   .p-cv {
-    color: brown;
-    font-size: 15px;
+    color: black;
+    font-size: 30px;
     font-family: fantasy;
     text-align: center;
     display: inline-block;
     border-radius: 10px;
-    background-color: rgba(210, 105, 30, 0.74); } }
+    background-color: rgba(210, 105, 30, 0.815); } }

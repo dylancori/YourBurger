@@ -16,11 +16,11 @@
 }
 
 h2{
-    color: $primario;
+    color: $bordes;
     font-size: map-get($fuentes,text-large );
     font-family: $f2;
     text-transform: uppercase;
-    background-color: rgba(210, 105, 30, 0.74);
+    background-color: rgba(210, 105, 30, 0.815);
     display: inline;
     border-radius: 10px;
     
@@ -29,6 +29,7 @@ h2{
 .burger1{
 @include medida(250px, 300px, inset, $secundario,8px);
 object-fit: cover
+
 }
 
 .bb1{
@@ -36,6 +37,7 @@ object-fit: cover
     grid-template-columns: 33% 33% 33%;
     justify-content: center;
     justify-items: center;
+    
 }
 
 
@@ -79,7 +81,6 @@ object-fit: cover
 
 
 
-
 @media (max-width:800px) and (min-width:360px) {
     .barra{
         width: 150p;
@@ -93,19 +94,22 @@ object-fit: cover
     .bb1{
         display: grid;
         grid-template-columns: 3fr;
+        margin: 10px;
+        
     }
     h2{
-        color: $primario;
-        font-size: map-get($fuentes,text-small );
+        color: $bordes;
+        font-size: map-get($fuentes,text-lmedium );
         font-family: $f2;
         text-transform: uppercase;
-        background-color: rgba(210, 105, 30, 0.74);
+        background-color: rgba(210, 105, 30, 0.815);
         display: inline;
         border-radius: 10px;
         
     }
     .burger1{
-        @include medida(100px, 150px, inset, $secundario,8px);
+        @include medida(200px, 250px, inset, $secundario,8px);
+        margin-top: 20px;
         object-fit: cover
         }
         

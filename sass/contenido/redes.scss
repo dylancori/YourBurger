@@ -3,11 +3,11 @@
 @import"../fijos/header.scss";
 @import"../fijos/footer.scss";
 .p-r{
-    color: $primario;
+    color: $bordes;
     font-size: map-get($fuentes,text-medium );
     font-family: $f2;
     text-align: center;
-    background-color: rgba(210, 105, 30, 0.74);
+    background-color: rgba(210, 105, 30, 0.815);
     display: inline;
     border-radius: 10px;
     text-transform: uppercase;
@@ -22,14 +22,14 @@
    @media (max-width:800px) and (min-width:360px){
 
   .p-r{
-    color: $primario;
-    font-size: map-get($fuentes,text-small );
+    color: $bordes;
+    font-size: map-get($fuentes,text-medium );
     font-family: $f2;
     text-align: center;
-    background-color: rgba(210, 105, 30, 0.74);
+    background-color:  rgba(210, 105, 30, 0.815);
     display: inline;
     border-radius: 10px;
     text-transform: uppercase;
-    
+    object-fit: cover
    } 
   }

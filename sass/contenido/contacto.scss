@@ -3,24 +3,24 @@
 @import"../fijos/header.scss";
 @import"../fijos/footer.scss";
 span{
-color: $primario;
+color: $bordes;
 font-size: map-get($fuentes , text-medium );
 font-family: $f2;
 text-align: center;
 text-transform: uppercase;  
 display: inline-block;
 border-radius: 10px;  
-background-color: rgba(210, 105, 30, 0.74);
+background-color: rgba(210, 105, 30, 0.815);
 }
 @media (max-width:800px) and (min-width:360px) {
     span{
-        color: $primario;
-        font-size: map-get($fuentes , text-small );
+        color: $bordes;
+        font-size: map-get($fuentes , text-medium );
         font-family: $f2;
         text-align: center;
         text-transform: uppercase;  
         display: inline-block;
         border-radius: 10px;  
-        background-color: rgba(210, 105, 30, 0.74);
+        background-color:  rgba(210, 105, 30, 0.815);
         }
 }

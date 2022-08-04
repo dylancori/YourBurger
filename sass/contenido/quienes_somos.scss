@@ -14,13 +14,13 @@
 }
 
 .p-qs{
-    color: $primario;
+    color: $bordes;
     font-size: map-get($fuentes,text-small );
     font-family: $f2;
     text-align: center;
     display: inline-block;
     border-radius: 10px;  
-    background-color: rgba(210, 105, 30, 0.74);
+    background-color: rgba(210, 105, 30, 0.815);
 }
 
 
@@ -34,12 +34,12 @@
 
 
     .p-qs{
-        color: $primario;
-        font-size: map-get($fuentes,text-lsmall );
+        color: $bordes;
+        font-size: map-get($fuentes,text-small );
         font-family: $f2;
         text-align: center;
         display: inline-block;
         border-radius: 10px;  
-        background-color: rgba(210, 105, 30, 0.74);
+        background-color:  rgba(210, 105, 30, 0.815);
     }
 }

@@ -82,22 +82,22 @@ footer {
     text-decoration: none; }
 
 span {
-  color: brown;
+  color: black;
   font-size: 50px;
   font-family: fantasy;
   text-align: center;
   text-transform: uppercase;
   display: inline-block;
   border-radius: 10px;
-  background-color: rgba(210, 105, 30, 0.74); }
+  background-color: rgba(210, 105, 30, 0.815); }
 
 @media (max-width: 800px) and (min-width: 360px) {
   span {
-    color: brown;
-    font-size: 25px;
+    color: black;
+    font-size: 50px;
     font-family: fantasy;
     text-align: center;
     text-transform: uppercase;
     display: inline-block;
     border-radius: 10px;
-    background-color: rgba(210, 105, 30, 0.74); } }
+    background-color: rgba(210, 105, 30, 0.815); } }

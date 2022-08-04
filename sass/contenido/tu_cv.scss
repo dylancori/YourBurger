@@ -3,13 +3,13 @@
 @import"../fijos/header.scss";
 @import"../fijos/footer.scss";
 .p-cv{
-    color: $primario;
+    color: $bordes;
     font-size: map-get($fuentes,text-base );
     font-family: $f2;
     text-align: center;
     display: inline-block;
 border-radius: 10px;  
-background-color: rgba(210, 105, 30, 0.74);
+background-color: rgba(210, 105, 30, 0.815);
     
    }
    span{
@@ -26,12 +26,12 @@ background-color: rgba(210, 105, 30, 0.74);
    }
    @media (max-width:800px) and (min-width:360px){
     .p-cv{
-        color: $primario;
-        font-size: map-get($fuentes,text-lsmall );
+        color: $bordes;
+        font-size: map-get($fuentes,text-base );
         font-family: $f2;
         text-align: center;
         display: inline-block;
     border-radius: 10px;  
-    background-color: rgba(210, 105, 30, 0.74);
+    background-color:  rgba(210, 105, 30, 0.815);
    }
    }

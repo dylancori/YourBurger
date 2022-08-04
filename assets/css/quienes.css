@@ -91,13 +91,13 @@ footer {
   object-fit: cover; }
 
 .p-qs {
-  color: brown;
+  color: black;
   font-size: 25px;
   font-family: fantasy;
   text-align: center;
   display: inline-block;
   border-radius: 10px;
-  background-color: rgba(210, 105, 30, 0.74); }
+  background-color: rgba(210, 105, 30, 0.815); }
 
 @media (max-width: 1050px) and (min-width: 360px) {
   .abcd {
@@ -106,10 +106,10 @@ footer {
     grid-template-rows: 2fr;
     object-fit: cover; }
   .p-qs {
-    color: brown;
-    font-size: 15px;
+    color: black;
+    font-size: 25px;
     font-family: fantasy;
     text-align: center;
     display: inline-block;
     border-radius: 10px;
-    background-color: rgba(210, 105, 30, 0.74); } }
+    background-color: rgba(210, 105, 30, 0.815); } }

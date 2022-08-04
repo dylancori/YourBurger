@@ -82,11 +82,11 @@ footer {
     text-decoration: none; }
 
 .p-r {
-  color: brown;
+  color: black;
   font-size: 50px;
   font-family: fantasy;
   text-align: center;
-  background-color: rgba(210, 105, 30, 0.74);
+  background-color: rgba(210, 105, 30, 0.815);
   display: inline;
   border-radius: 10px;
   text-transform: uppercase; }
@@ -98,11 +98,12 @@ img {
 
 @media (max-width: 800px) and (min-width: 360px) {
   .p-r {
-    color: brown;
-    font-size: 25px;
+    color: black;
+    font-size: 50px;
     font-family: fantasy;
     text-align: center;
-    background-color: rgba(210, 105, 30, 0.74);
+    background-color: rgba(210, 105, 30, 0.815);
     display: inline;
     border-radius: 10px;
-    text-transform: uppercase; } }
+    text-transform: uppercase;
+    object-fit: cover; } }
