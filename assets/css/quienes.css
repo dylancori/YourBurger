@@ -29,7 +29,6 @@ header label {
   width: 30px;
   height: 30px;
   padding: 10px;
-  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.082);
   border-radius: 10px; }
   header label:hover {
@@ -50,7 +49,6 @@ ul {
   align-items: center; }
   ul, ul a {
     text-decoration: none;
-    cursor: pointer;
     border: 2px solid chocolate;
     border-radius: 10px;
     transition: all 1s;
@@ -89,7 +87,8 @@ footer {
   grid-template-rows: 1fr 1fr;
   grid-gap: 50px;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+  object-fit: cover; }
 
 .p-qs {
   color: brown;
@@ -104,4 +103,13 @@ footer {
   .abcd {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr; } }
+    grid-template-rows: 2fr;
+    object-fit: cover; }
+  .p-qs {
+    color: brown;
+    font-size: 15px;
+    font-family: fantasy;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(210, 105, 30, 0.74); } }

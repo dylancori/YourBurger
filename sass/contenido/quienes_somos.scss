@@ -9,17 +9,18 @@
     grid-gap: 50px;
     align-items: center;
     justify-items: center;
+    object-fit: cover
     
 }
 
 .p-qs{
     color: $primario;
-    font-size: 25px;
+    font-size: map-get($fuentes,text-small );
     font-family: $f2;
     text-align: center;
     display: inline-block;
-border-radius: 10px;  
-background-color: rgba(210, 105, 30, 0.74);
+    border-radius: 10px;  
+    background-color: rgba(210, 105, 30, 0.74);
 }
 
 
@@ -28,5 +29,17 @@ background-color: rgba(210, 105, 30, 0.74);
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
+        object-fit: cover
+    }
+
+
+    .p-qs{
+        color: $primario;
+        font-size: map-get($fuentes,text-lsmall );
+        font-family: $f2;
+        text-align: center;
+        display: inline-block;
+        border-radius: 10px;  
+        background-color: rgba(210, 105, 30, 0.74);
     }
 }

@@ -29,7 +29,6 @@ header label {
   width: 30px;
   height: 30px;
   padding: 10px;
-  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.082);
   border-radius: 10px; }
   header label:hover {
@@ -50,7 +49,6 @@ ul {
   align-items: center; }
   ul, ul a {
     text-decoration: none;
-    cursor: pointer;
     border: 2px solid chocolate;
     border-radius: 10px;
     transition: all 1s;
@@ -92,3 +90,19 @@ footer {
   display: inline;
   border-radius: 10px;
   text-transform: uppercase; }
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; }
+
+@media (max-width: 800px) and (min-width: 360px) {
+  .p-r {
+    color: brown;
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: center;
+    background-color: rgba(210, 105, 30, 0.74);
+    display: inline;
+    border-radius: 10px;
+    text-transform: uppercase; } }

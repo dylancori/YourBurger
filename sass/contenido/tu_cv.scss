@@ -4,7 +4,7 @@
 @import"../fijos/footer.scss";
 .p-cv{
     color: $primario;
-    font-size: 30px;
+    font-size: map-get($fuentes,text-base );
     font-family: $f2;
     text-align: center;
     display: inline-block;
@@ -12,8 +12,26 @@ border-radius: 10px;
 background-color: rgba(210, 105, 30, 0.74);
     
    }
-   .cv{
+   span{
     color:$bordes;
     font-family: $f2;
     text-transform: uppercase;
+    background-color: white;
+    display: inline;
+   }
+   form{
+    background-color: rgba(210, 105, 30, 0.74);
+    display: inline-block;
+    border-radius: 10px; 
+   }
+   @media (max-width:800px) and (min-width:360px){
+    .p-cv{
+        color: $primario;
+        font-size: map-get($fuentes,text-lsmall );
+        font-family: $f2;
+        text-align: center;
+        display: inline-block;
+    border-radius: 10px;  
+    background-color: rgba(210, 105, 30, 0.74);
+   }
    }

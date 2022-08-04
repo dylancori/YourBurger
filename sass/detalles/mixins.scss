@@ -1,7 +1,8 @@
-@mixin medida($wi,$he,$bs,$bc) {
+@mixin medida($wi,$he,$bs,$bc,$br) {
     width: $wi;
     height: $he;
     border-style: $bs;
     border-color: $bc;
+    border-radius: $br;
     
 }

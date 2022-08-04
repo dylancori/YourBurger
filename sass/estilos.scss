@@ -27,7 +27,8 @@ h2{
 }
 
 .burger1{
-@include medida(250px, 300px, inset, $secundario)
+@include medida(250px, 300px, inset, $secundario,8px);
+object-fit: cover
 }
 
 .bb1{
@@ -62,27 +63,50 @@ h2{
 
 .pizz-a{
 @extend.burger1;
-    border-color: black;
-    padding: 15px;
+    
     
 }
 
 .beb{
-    @include medida(300px, 300px, inset, $secundario)
+    @include medida(300px, 300px, inset, $secundario,8px);
+    @extend.burger1;
 }
 
 .trag{
-    @include medida(300px, 300px, inset, $secundario)
-    
+    @include medida(300px, 300px, inset, $secundario,8px);
+    @extend.burger1;
 }
 
 
 
 
 @media (max-width:800px) and (min-width:360px) {
+    .barra{
+        width: 150p;
+        height: 30px;
+        font-family:$f1 ;
+        text-transform: uppercase;
+        font-size: map-get($fuentes, text-xsmall );
+        
+    }
     
     .bb1{
         display: grid;
         grid-template-columns: 3fr;
     }
+    h2{
+        color: $primario;
+        font-size: map-get($fuentes,text-small );
+        font-family: $f2;
+        text-transform: uppercase;
+        background-color: rgba(210, 105, 30, 0.74);
+        display: inline;
+        border-radius: 10px;
+        
+    }
+    .burger1{
+        @include medida(100px, 150px, inset, $secundario,8px);
+        object-fit: cover
+        }
+        
 }
