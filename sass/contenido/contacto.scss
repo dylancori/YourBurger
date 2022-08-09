@@ -10,8 +10,13 @@ text-align: center;
 text-transform: uppercase;  
 display: inline-block;
 border-radius: 10px;  
-background-color: rgba(210, 105, 30, 0.815);
+
 }
+form{
+    background-color: rgba(210, 105, 30, 0.74);
+    display: inline-block;
+    border-radius: 10px; 
+   }
 @media (max-width:800px) and (min-width:360px) {
     span{
         color: $bordes;
